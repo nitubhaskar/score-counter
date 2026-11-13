@@ -42,4 +42,21 @@ A sleek, lightweight, and modern Android application designed for tracking score
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/nitubhaskar/Score-counter.git
-   cd ScoreCounter
+   cd Score-counter
+   ```
+
+2. **Open in Android Studio**:
+   Open Android Studio and select **Open an Existing Project**, then choose the `Score-counter` directory.
+
+3. **Build & Run**:
+   - Run via Gradle task:
+     ```bash
+     ./gradlew :app:assembleDebug
+     ```
+   - Or press **Run (Shift + F10)** in Android Studio to launch on your connected Android device or emulator.
+
+---
+
+## 📱 License
+
+Distributed under the **GNU General Public License v3.0 (GPLv3)**. See `LICENSE` for details.
